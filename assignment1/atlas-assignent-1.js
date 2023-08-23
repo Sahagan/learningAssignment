@@ -9,5 +9,17 @@
     * input [7,8,8] return [7,8,9]}  
  */
 const atlasAssignment1 = (input) => {
+   for (let i = input.length - 1; i >= 0; i--) {
+      if (input[i] < 9) {
+         input[i] += 1;
+         break;
+      } else {
+         input[i] = 0;
+      }
+   }
+   if (input[0] === 0) {
+      input.unshift(1);
+   }
 
+   return input;
 }
