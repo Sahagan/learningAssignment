@@ -13,3 +13,4 @@ yarn start:dev
 - Wather API Key 65c30b3194d7c141789fc9f4789c59e2
 - API: Built-in API request by ZIP code
 - country code: TH
+    
